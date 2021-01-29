@@ -74,7 +74,7 @@ def cartoonize(img_rgb_rec,img_grey_rec):
 
 	# dimensions = img_grey_rec.shape
 	res = tmp_canvas.render(img_rgb_rec)
-	res = cv2.resize(res,(img_grey_rec.shape[1],img_grey_rec.shape[0]))
+	res = cv2.resize(res,(500,500))
 
 	return res
 	#cv2.waitKey(0) 
