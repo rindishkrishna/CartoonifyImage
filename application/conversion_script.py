@@ -1,4 +1,3 @@
-import tensorflow as tf
  
 # Helper libraries
 import cv2
